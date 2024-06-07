@@ -48,11 +48,14 @@ body {
    color: #DCDCDC;
  }
 
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
 .navbar-brand {
-   font-weight: 700;
-   font-size: 26px;
-   text-decoration: none;
-   color: rgb(189, 124, 26);
+    display: inline-block;
+    animation: fadeIn 2s ease-in-out;
 }
 .col-lg-6offset-lg-3text-center{
    text-size-adjust: 2; font: size 5re; ;
